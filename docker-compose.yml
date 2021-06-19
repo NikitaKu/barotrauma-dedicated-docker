@@ -1,0 +1,7 @@
+services:
+  server:
+    image: barotrauma-dedicated
+    ports:
+      - "27015:27015"
+      - "27016:27016"
+    command: ["+login", "anonymous", "+app_run", "1026340"]
